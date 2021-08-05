@@ -123,7 +123,7 @@
             <windowStyleMask key="styleMask" titled="YES" utility="YES" documentModal="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="196" y="132" width="451" height="246"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="1440" height="875"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1792" height="1095"/>
             <view key="contentView" id="6180">
                 <rect key="frame" x="0.0" y="0.0" width="451" height="246"/>
                 <autoresizingMask key="autoresizingMask"/>
@@ -374,7 +374,7 @@ Gw
         <window title="Preferences" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" id="1923" userLabel="Main Preferences Window" customClass="iTermPrefsPanel">
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES"/>
             <rect key="contentRect" x="269" y="110" width="924" height="463"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="1440" height="875"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1792" height="1095"/>
             <view key="contentView" id="1924">
                 <rect key="frame" x="0.0" y="0.0" width="924" height="463"/>
                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -602,48 +602,48 @@ Gw
             </view>
             <toolbar key="toolbar" implicitIdentifier="D08B01BC-1A7C-42DC-B326-C2E53519AB95" autosavesConfiguration="NO" allowsUserCustomization="NO" displayMode="iconAndLabel" sizeMode="regular" id="5885">
                 <allowedToolbarItems>
-                    <toolbarItem implicitItemIdentifier="45D9C222-64ED-4B5F-89E3-E9862F727A2B" label="General" paletteLabel="General" tag="-1" image="PrefsGeneral" sizingBehavior="auto" selectable="YES" id="5887">
+                    <toolbarItem implicitItemIdentifier="45D9C222-64ED-4B5F-89E3-E9862F727A2B" label="通用" paletteLabel="通用" tag="-1" image="PrefsGeneral" sizingBehavior="auto" selectable="YES" id="5887">
                         <nil key="toolTip"/>
                         <connections>
                             <action selector="showGlobalTabView:" target="-2" id="5895"/>
                         </connections>
                     </toolbarItem>
-                    <toolbarItem implicitItemIdentifier="A981DCF2-5E61-441F-8042-57635FC79EC6" label="Appearance" paletteLabel="Appearance" tag="-1" image="PrefsAppearance" sizingBehavior="auto" selectable="YES" id="5889">
+                    <toolbarItem implicitItemIdentifier="A981DCF2-5E61-441F-8042-57635FC79EC6" label="外观" paletteLabel="外观" tag="-1" image="PrefsAppearance" sizingBehavior="auto" selectable="YES" id="5889">
                         <nil key="toolTip"/>
                         <connections>
                             <action selector="showAppearanceTabView:" target="-2" id="5892"/>
                         </connections>
                     </toolbarItem>
-                    <toolbarItem implicitItemIdentifier="A3650111-7031-4C54-AE69-7C0A67F80581" label="Profiles" paletteLabel="Profiles" tag="-1" image="PrefsProfile" sizingBehavior="auto" selectable="YES" id="5886">
+                    <toolbarItem implicitItemIdentifier="A3650111-7031-4C54-AE69-7C0A67F80581" label="配置文件" paletteLabel="配置文件" tag="-1" image="PrefsProfile" sizingBehavior="auto" selectable="YES" id="5886">
                         <nil key="toolTip"/>
                         <connections>
                             <action selector="showBookmarksTabView:" target="-2" id="5893"/>
                         </connections>
                     </toolbarItem>
-                    <toolbarItem implicitItemIdentifier="AD5C9306-CF41-4791-A62C-E30615D27619" label="Keys" paletteLabel="Keys" tag="-1" image="PrefsKeyboard" sizingBehavior="auto" selectable="YES" id="5888">
+                    <toolbarItem implicitItemIdentifier="AD5C9306-CF41-4791-A62C-E30615D27619" label="键盘" paletteLabel="键盘" tag="-1" image="PrefsKeyboard" sizingBehavior="auto" selectable="YES" id="5888">
                         <nil key="toolTip"/>
                         <connections>
                             <action selector="showKeyboardTabView:" target="-2" id="5891"/>
                         </connections>
                     </toolbarItem>
-                    <toolbarItem implicitItemIdentifier="1DFE8A74-36A5-440E-BBB1-67A1D8C0368B" label="Pointer" paletteLabel="Pointer" tag="-1" image="PrefsMouse" sizingBehavior="auto" selectable="YES" id="6056">
+                    <toolbarItem implicitItemIdentifier="1DFE8A74-36A5-440E-BBB1-67A1D8C0368B" label="鼠标" paletteLabel="鼠标" tag="-1" image="PrefsMouse" sizingBehavior="auto" selectable="YES" id="6056">
                         <connections>
                             <action selector="showMouseTabView:" target="-2" id="6058"/>
                         </connections>
                     </toolbarItem>
-                    <toolbarItem implicitItemIdentifier="E909A2CE-74E7-4BCC-B139-A2EDCEDC7A5A" label="Arrangements" paletteLabel="Arrangements" tag="-1" image="PrefsArrangements" sizingBehavior="auto" selectable="YES" id="5890">
+                    <toolbarItem implicitItemIdentifier="E909A2CE-74E7-4BCC-B139-A2EDCEDC7A5A" label="窗口排列" paletteLabel="窗口排列" tag="-1" image="PrefsArrangements" sizingBehavior="auto" selectable="YES" id="5890">
                         <nil key="toolTip"/>
                         <connections>
                             <action selector="showArrangementsTabView:" target="-2" id="5894"/>
                         </connections>
                     </toolbarItem>
-                    <toolbarItem implicitItemIdentifier="3F832EA9-FDDD-4862-94BF-B3813E2AD10B" label="Advanced" paletteLabel="Advanced" tag="-1" image="PrefsAdvanced" sizingBehavior="auto" selectable="YES" id="gtg-rw-6h8">
+                    <toolbarItem implicitItemIdentifier="3F832EA9-FDDD-4862-94BF-B3813E2AD10B" label="高级" paletteLabel="高级" tag="-1" image="PrefsAdvanced" sizingBehavior="auto" selectable="YES" id="gtg-rw-6h8">
                         <nil key="toolTip"/>
                         <connections>
                             <action selector="showAdvancedTabView:" target="-2" id="f9X-n8-IcJ"/>
                         </connections>
                     </toolbarItem>
-                    <toolbarItem implicitItemIdentifier="AC57CB9F-043A-4DC7-9155-F358367619B6" label="Shortcuts" paletteLabel="Shortcuts" tag="-1" image="PrefsShortcuts" sizingBehavior="auto" id="97f-06-acT">
+                    <toolbarItem implicitItemIdentifier="AC57CB9F-043A-4DC7-9155-F358367619B6" label="快捷键" paletteLabel="快捷键" tag="-1" image="PrefsShortcuts" sizingBehavior="auto" id="97f-06-acT">
                         <connections>
                             <action selector="showShortcutsTabView:" target="-2" id="e52-BD-2Aw"/>
                         </connections>
@@ -677,7 +677,7 @@ Gw
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES" utility="YES" documentModal="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="162" y="156" width="805" height="358"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="1440" height="875"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1792" height="1095"/>
             <value key="minSize" type="size" width="805" height="358"/>
             <view key="contentView" id="5911">
                 <rect key="frame" x="0.0" y="0.0" width="805" height="358"/>
@@ -688,7 +688,7 @@ Gw
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <clipView key="contentView" id="gZI-PG-peZ">
                             <rect key="frame" x="1" y="1" width="763" height="263"/>
-                            <autoresizingMask key="autoresizingMask"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             <subviews>
                                 <tableView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" alternatingRowBackgroundColors="YES" columnReordering="NO" multipleSelection="NO" autosaveColumns="NO" headerView="5844" id="5845">
                                     <rect key="frame" x="0.0" y="0.0" width="763" height="246"/>
@@ -865,7 +865,7 @@ DQ
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES" utility="YES" documentModal="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="162" y="229" width="575" height="295"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="1440" height="875"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1792" height="1095"/>
             <value key="minSize" type="size" width="575" height="100"/>
             <view key="contentView" id="6275">
                 <rect key="frame" x="0.0" y="0.0" width="575" height="295"/>
@@ -2526,9 +2526,9 @@ DQ
                     </connections>
                 </button>
                 <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" allowsCharacterPickerTouchBarItem="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4772">
-                    <rect key="frame" x="18" y="427" width="48" height="16"/>
+                    <rect key="frame" x="18" y="427" width="31" height="16"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="left" title="Cursor" id="4835">
+                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="left" title="光标" id="4835">
                         <font key="font" metaFont="systemBold"/>
                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
@@ -2573,10 +2573,10 @@ DQ
                     </connections>
                 </button>
                 <matrix verticalHuggingPriority="750" fixedFrame="YES" allowsEmptySelection="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5017">
-                    <rect key="frame" x="20" y="401" width="302" height="18"/>
+                    <rect key="frame" x="20" y="401" width="206" height="18"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
-                    <size key="cellSize" width="98" height="18"/>
+                    <size key="cellSize" width="66" height="18"/>
                     <size key="intercellSpacing" width="4" height="2"/>
                     <buttonCell key="prototype" type="radio" title="Radio" imagePosition="left" alignment="left" inset="2" id="5023">
                         <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
@@ -2584,19 +2584,19 @@ DQ
                     </buttonCell>
                     <cells>
                         <column>
-                            <buttonCell type="radio" title="Underline" imagePosition="left" alignment="left" inset="2" id="5022">
+                            <buttonCell type="radio" title="下划线" imagePosition="left" alignment="left" inset="2" id="5022">
                                 <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                 <font key="font" metaFont="system"/>
                             </buttonCell>
                         </column>
                         <column>
-                            <buttonCell type="radio" title="Vertical bar" imagePosition="left" alignment="left" tag="1" inset="2" id="4EF-ZY-624">
+                            <buttonCell type="radio" title="竖线" imagePosition="left" alignment="left" tag="1" inset="2" id="4EF-ZY-624">
                                 <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                 <font key="font" metaFont="system"/>
                             </buttonCell>
                         </column>
                         <column>
-                            <buttonCell type="radio" title="Box" imagePosition="left" alignment="left" tag="2" inset="2" id="2Uw-hJ-dM5">
+                            <buttonCell type="radio" title="块" imagePosition="left" alignment="left" tag="2" inset="2" id="2Uw-hJ-dM5">
                                 <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                 <font key="font" metaFont="system"/>
                             </buttonCell>
@@ -2774,9 +2774,9 @@ DQ
                     </connections>
                 </button>
                 <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4773">
-                    <rect key="frame" x="419" y="401" width="117" height="18"/>
+                    <rect key="frame" x="419" y="401" width="80" height="18"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                    <buttonCell key="cell" type="check" title="Blinking cursor" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="4834">
+                    <buttonCell key="cell" type="check" title="闪烁光标" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="4834">
                         <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                         <font key="font" metaFont="system"/>
                     </buttonCell>
@@ -3703,7 +3703,7 @@ DQ
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <clipView key="contentView" id="ArV-0K-qze">
                         <rect key="frame" x="1" y="1" width="523" height="95"/>
-                        <autoresizingMask key="autoresizingMask"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" alternatingRowBackgroundColors="YES" columnReordering="NO" columnResizing="NO" multipleSelection="NO" autosaveColumns="NO" id="5661">
                                 <rect key="frame" x="0.0" y="0.0" width="523" height="95"/>
@@ -4500,7 +4500,7 @@ DQ
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <clipView key="contentView" id="FMp-vf-IvG">
                         <rect key="frame" x="1" y="1" width="519" height="76"/>
-                        <autoresizingMask key="autoresizingMask"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" alternatingRowBackgroundColors="YES" columnSelection="YES" multipleSelection="NO" autosaveColumns="NO" id="69M-P0-mzb">
                                 <rect key="frame" x="0.0" y="0.0" width="519" height="76"/>
@@ -4624,7 +4624,7 @@ DQ
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                     <font key="font" metaFont="system"/>
                     <tabViewItems>
-                        <tabViewItem label="Startup" identifier="1" id="ZsM-GD-jXe">
+                        <tabViewItem label="启动" identifier="1" id="ZsM-GD-jXe">
                             <view key="view" id="PuF-5n-KLY">
                                 <rect key="frame" x="10" y="33" width="755" height="461"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -4636,14 +4636,14 @@ DQ
                                             <popUpButton verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cZL-gb-ECo">
                                                 <rect key="frame" x="188" y="39" width="297" height="26"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                                <popUpButtonCell key="cell" type="push" title="Open Default Window Arrangement" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" tag="1" imageScaling="proportionallyDown" inset="2" autoenablesItems="NO" selectedItem="nMp-ky-1KX" id="TIr-9J-Y7W">
+                                                <popUpButtonCell key="cell" type="push" title="打开默认窗口排列" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" tag="1" imageScaling="proportionallyDown" inset="2" autoenablesItems="NO" selectedItem="nMp-ky-1KX" id="TIr-9J-Y7W">
                                                     <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
                                                     <font key="font" metaFont="menu"/>
                                                     <menu key="menu" title="OtherViews" autoenablesItems="NO" id="oDc-dV-6wC">
                                                         <items>
-                                                            <menuItem title="Use System Window Restoration Setting" id="Smv-f0-j9o"/>
-                                                            <menuItem title="Open Default Window Arrangement" state="on" tag="1" id="nMp-ky-1KX"/>
-                                                            <menuItem title="Only Restore Hotkey Window" tag="2" id="Qd0-Iv-vOs"/>
+                                                            <menuItem title="使用系统窗口还原设置" id="Smv-f0-j9o"/>
+                                                            <menuItem title="打开默认窗口排列" state="on" tag="1" id="nMp-ky-1KX"/>
+                                                            <menuItem title="仅恢复热键窗口" tag="2" id="Qd0-Iv-vOs"/>
                                                         </items>
                                                     </menu>
                                                 </popUpButtonCell>
@@ -4651,21 +4651,12 @@ DQ
                                                     <action selector="settingChanged:" target="9Se-ld-UJa" id="i6R-vl-3nK"/>
                                                 </connections>
                                             </popUpButton>
-                                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="64T-Y0-ROF">
-                                                <rect key="frame" x="18" y="46" width="166" height="16"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                                <textFieldCell key="cell" lineBreakMode="clipping" title="Window restoration policy:" id="ggI-iG-lBw">
-                                                    <font key="font" metaFont="system"/>
-                                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
-                                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
-                                                </textFieldCell>
-                                            </textField>
                                             <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1959">
-                                                <rect key="frame" x="188" y="18" width="163" height="18"/>
+                                                <rect key="frame" x="188" y="17" width="163" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                                <buttonCell key="cell" type="check" title="Open profiles window" bezelStyle="regularSquare" imagePosition="left" alignment="left" state="on" inset="2" id="1960">
+                                                <buttonCell key="cell" type="check" title="打开配置文件窗口" bezelStyle="regularSquare" imagePosition="left" alignment="left" state="on" inset="2" id="1960">
                                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
-                                                    <font key="font" metaFont="system"/>
+                                                    <font key="font" size="13" name=".PingFangSC-Regular"/>
                                                 </buttonCell>
                                                 <connections>
                                                     <action selector="settingChanged:" target="9Se-ld-UJa" id="1gO-ml-ecT"/>
@@ -4682,12 +4673,21 @@ DQ
                                                     <action selector="warning:" target="9Se-ld-UJa" id="BKs-vE-c7P"/>
                                                 </connections>
                                             </button>
+                                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="64T-Y0-ROF">
+                                                <rect key="frame" x="97" y="47" width="88" height="16"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                                <textFieldCell key="cell" lineBreakMode="clipping" alignment="right" title="窗口恢复策略:" id="ggI-iG-lBw">
+                                                    <font key="font" metaFont="system"/>
+                                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                                </textFieldCell>
+                                            </textField>
                                         </subviews>
                                     </customView>
                                 </subviews>
                             </view>
                         </tabViewItem>
-                        <tabViewItem label="Closing" identifier="2" id="brO-Cv-Mur">
+                        <tabViewItem label="关闭" identifier="2" id="brO-Cv-Mur">
                             <view key="view" id="OoT-kA-sCh">
                                 <rect key="frame" x="10" y="33" width="755" height="461"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -4697,22 +4697,22 @@ DQ
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
                                         <subviews>
                                             <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1950">
-                                                <rect key="frame" x="18" y="78" width="227" height="18"/>
+                                                <rect key="frame" x="18" y="77" width="159" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                                <buttonCell key="cell" type="check" title="Quit when all windows are closed" bezelStyle="regularSquare" imagePosition="left" alignment="left" state="on" inset="2" id="1951">
+                                                <buttonCell key="cell" type="check" title="当所有窗口关闭时退出" bezelStyle="regularSquare" imagePosition="left" alignment="left" state="on" inset="2" id="1951">
                                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
-                                                    <font key="font" metaFont="system"/>
+                                                    <font key="font" size="13" name=".PingFangSC-Regular"/>
                                                 </buttonCell>
                                                 <connections>
                                                     <action selector="settingChanged:" target="9Se-ld-UJa" id="yg4-6a-znj"/>
                                                 </connections>
                                             </button>
                                             <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1996">
-                                                <rect key="frame" x="18" y="58" width="229" height="18"/>
+                                                <rect key="frame" x="18" y="57" width="146" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                                <buttonCell key="cell" type="check" title="Confirm closing multiple sessions" bezelStyle="regularSquare" imagePosition="left" alignment="left" state="on" inset="2" id="1997">
+                                                <buttonCell key="cell" type="check" title="退出多个会话时提示" bezelStyle="regularSquare" imagePosition="left" alignment="left" state="on" inset="2" id="1997">
                                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
-                                                    <font key="font" metaFont="system"/>
+                                                    <font key="font" size="13" name=".PingFangSC-Regular"/>
                                                 </buttonCell>
                                                 <connections>
                                                     <action selector="settingChanged:" target="9Se-ld-UJa" id="rss-OX-QhV"/>
@@ -4720,11 +4720,11 @@ DQ
                                                 </connections>
                                             </button>
                                             <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4757">
-                                                <rect key="frame" x="18" y="38" width="225" height="18"/>
+                                                <rect key="frame" x="18" y="37" width="225" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                                <buttonCell key="cell" type="check" title="Confirm &quot;Quit iTerm2 (⌘Q)&quot;" bezelStyle="regularSquare" imagePosition="left" alignment="left" state="on" inset="2" id="4758">
+                                                <buttonCell key="cell" type="check" title="确认 &quot;退出 iTerm2 (⌘Q)&quot;" bezelStyle="regularSquare" imagePosition="left" alignment="left" state="on" inset="2" id="4758">
                                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
-                                                    <font key="font" metaFont="system"/>
+                                                    <font key="font" size="13" name=".PingFangSC-Regular"/>
                                                 </buttonCell>
                                                 <connections>
                                                     <action selector="settingChanged:" target="9Se-ld-UJa" id="Erm-GG-ZnM"/>
@@ -4732,9 +4732,9 @@ DQ
                                                 </connections>
                                             </button>
                                             <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7pa-hD-WIi">
-                                                <rect key="frame" x="28" y="18" width="219" height="18"/>
+                                                <rect key="frame" x="34" y="19" width="219" height="18"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                                <buttonCell key="cell" type="check" title="Even if there are no windows" bezelStyle="regularSquare" imagePosition="left" alignment="left" state="on" inset="2" id="riN-eN-PZd">
+                                                <buttonCell key="cell" type="check" title="甚至没有打开的窗口" bezelStyle="regularSquare" imagePosition="left" alignment="left" state="on" inset="2" id="riN-eN-PZd">
                                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                                     <font key="font" metaFont="system"/>
                                                 </buttonCell>
@@ -4793,11 +4793,11 @@ DQ
                                                 </connections>
                                             </button>
                                             <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5056">
-                                                <rect key="frame" x="18" y="62" width="304" height="18"/>
+                                                <rect key="frame" x="18" y="61" width="223" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                                <buttonCell key="cell" type="check" title="Save copy/paste and command history to disk" bezelStyle="regularSquare" imagePosition="left" alignment="left" state="on" inset="2" id="5057">
+                                                <buttonCell key="cell" type="check" title="保存 复制/粘贴和命令历史到磁盘" bezelStyle="regularSquare" imagePosition="left" alignment="left" state="on" inset="2" id="5057">
                                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
-                                                    <font key="font" metaFont="system"/>
+                                                    <font key="font" size="13" name=".PingFangSC-Regular"/>
                                                 </buttonCell>
                                                 <connections>
                                                     <action selector="settingChanged:" target="9Se-ld-UJa" id="EhX-hk-oZL"/>
@@ -4805,11 +4805,11 @@ DQ
                                                 </connections>
                                             </button>
                                             <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hxX-te-qT5">
-                                                <rect key="frame" x="18" y="42" width="137" height="18"/>
+                                                <rect key="frame" x="18" y="41" width="123" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                                <buttonCell key="cell" type="check" title="Enable Python API" bezelStyle="regularSquare" imagePosition="left" alignment="left" state="on" inset="2" id="Enu-TA-VzR">
+                                                <buttonCell key="cell" type="check" title="启用 Python API" bezelStyle="regularSquare" imagePosition="left" alignment="left" state="on" inset="2" id="Enu-TA-VzR">
                                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
-                                                    <font key="font" metaFont="system"/>
+                                                    <font key="font" size="13" name=".PingFangSC-Regular"/>
                                                 </buttonCell>
                                                 <connections>
                                                     <action selector="settingChanged:" target="9Se-ld-UJa" id="Hs3-VF-mbb"/>
@@ -4869,7 +4869,7 @@ DQ
                                 </subviews>
                             </view>
                         </tabViewItem>
-                        <tabViewItem label="Services" identifier="" id="hxz-xY-wbF">
+                        <tabViewItem label="服务" identifier="" id="hxz-xY-wbF">
                             <view key="view" id="QRB-QZ-Yoo">
                                 <rect key="frame" x="10" y="33" width="755" height="461"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -4879,11 +4879,11 @@ DQ
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
                                         <subviews>
                                             <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5051">
-                                                <rect key="frame" x="110" y="58" width="202" height="18"/>
+                                                <rect key="frame" x="110" y="57" width="209" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                                <buttonCell key="cell" type="check" title="Add Bonjour hosts to Profiles" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="5063">
+                                                <buttonCell key="cell" type="check" title="将Bonjour主机添加到配置文件" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="5063">
                                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
-                                                    <font key="font" metaFont="system"/>
+                                                    <font key="font" size="13" name=".PingFangSC-Regular"/>
                                                 </buttonCell>
                                                 <connections>
                                                     <action selector="settingChanged:" target="9Se-ld-UJa" id="eVv-Yn-zdl"/>
@@ -4891,22 +4891,22 @@ DQ
                                                 </connections>
                                             </button>
                                             <button toolTip="Selects whether to install the beta or release build when updating." fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5049">
-                                                <rect key="frame" x="110" y="18" width="199" height="18"/>
+                                                <rect key="frame" x="110" y="17" width="150" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                                <buttonCell key="cell" type="check" title="Update to Beta test releases" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="5065">
+                                                <buttonCell key="cell" type="check" title="更新到Beta测试版本" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="5065">
                                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
-                                                    <font key="font" metaFont="system"/>
+                                                    <font key="font" size="13" name=".PingFangSC-Regular"/>
                                                 </buttonCell>
                                                 <connections>
                                                     <action selector="settingChanged:" target="9Se-ld-UJa" id="jqK-dm-ssy"/>
                                                 </connections>
                                             </button>
                                             <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5048">
-                                                <rect key="frame" x="110" y="38" width="222" height="18"/>
+                                                <rect key="frame" x="110" y="37" width="106" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                                <buttonCell key="cell" type="check" title="Check for updates automatically" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="5066">
+                                                <buttonCell key="cell" type="check" title="自动检查更新" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="5066">
                                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
-                                                    <font key="font" metaFont="system"/>
+                                                    <font key="font" size="13" name=".PingFangSC-Regular"/>
                                                 </buttonCell>
                                                 <connections>
                                                     <action selector="settingChanged:" target="9Se-ld-UJa" id="SDz-wA-BhL"/>
@@ -4927,7 +4927,7 @@ DQ
                                 </subviews>
                             </view>
                         </tabViewItem>
-                        <tabViewItem label="Selection" identifier="" id="3Jf-X1-Drt">
+                        <tabViewItem label="选择" identifier="" id="3Jf-X1-Drt">
                             <view key="view" id="aNs-OQ-hfy">
                                 <rect key="frame" x="10" y="33" width="755" height="461"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -4937,20 +4937,20 @@ DQ
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
                                         <subviews>
                                             <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" allowsCharacterPickerTouchBarItem="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2095">
-                                                <rect key="frame" x="142" y="23" width="234" height="16"/>
+                                                <rect key="frame" x="143" y="25" width="167" height="16"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="left" title="Characters considered part of a word:" id="2098">
-                                                    <font key="font" metaFont="system"/>
+                                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="left" title="被认为是单词一部分的字符:" id="2098">
+                                                    <font key="font" size="13" name=".PingFangSC-Regular"/>
                                                     <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                                 </textFieldCell>
                                             </textField>
                                             <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1988">
-                                                <rect key="frame" x="143" y="148" width="420" height="18"/>
+                                                <rect key="frame" x="143" y="147" width="420" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                                <buttonCell key="cell" type="check" title="Copy to pasteboard on selection" bezelStyle="regularSquare" imagePosition="left" alignment="left" state="on" inset="2" id="1989">
+                                                <buttonCell key="cell" type="check" title="选中时复制到粘贴板" bezelStyle="regularSquare" imagePosition="left" alignment="left" state="on" inset="2" id="1989">
                                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
-                                                    <font key="font" metaFont="system"/>
+                                                    <font key="font" size="13" name=".PingFangSC-Regular"/>
                                                 </buttonCell>
                                                 <connections>
                                                     <action selector="settingChanged:" target="9Se-ld-UJa" id="t0W-Hn-05Q"/>
@@ -4958,63 +4958,63 @@ DQ
                                                 </connections>
                                             </button>
                                             <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5747">
-                                                <rect key="frame" x="143" y="128" width="420" height="18"/>
+                                                <rect key="frame" x="143" y="127" width="420" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                                <buttonCell key="cell" type="check" title="Copied text includes trailing newline" bezelStyle="regularSquare" imagePosition="left" alignment="left" state="on" inset="2" id="5748">
+                                                <buttonCell key="cell" type="check" title="复制文本包括尾随的换行符" bezelStyle="regularSquare" imagePosition="left" alignment="left" state="on" inset="2" id="5748">
                                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
-                                                    <font key="font" metaFont="system"/>
+                                                    <font key="font" size="13" name=".PingFangSC-Regular"/>
                                                 </buttonCell>
                                                 <connections>
                                                     <action selector="settingChanged:" target="9Se-ld-UJa" id="GEe-gf-ALm"/>
                                                 </connections>
                                             </button>
                                             <button toolTip="Clipboard access via an escape code poses a security risk if running untrusted applications." fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6383">
-                                                <rect key="frame" x="143" y="108" width="420" height="18"/>
+                                                <rect key="frame" x="143" y="107" width="420" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                                <buttonCell key="cell" type="check" title="Applications in terminal may access clipboard" bezelStyle="regularSquare" imagePosition="left" alignment="left" state="on" inset="2" id="6384">
+                                                <buttonCell key="cell" type="check" title="终端中的应用程序可以访问剪贴板" bezelStyle="regularSquare" imagePosition="left" alignment="left" state="on" inset="2" id="6384">
                                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
-                                                    <font key="font" metaFont="system"/>
+                                                    <font key="font" size="13" name=".PingFangSC-Regular"/>
                                                 </buttonCell>
                                                 <connections>
                                                     <action selector="settingChanged:" target="9Se-ld-UJa" id="JJB-g8-hTr"/>
                                                 </connections>
                                             </button>
                                             <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wgv-Ah-fFr">
-                                                <rect key="frame" x="143" y="68" width="420" height="18"/>
+                                                <rect key="frame" x="143" y="67" width="420" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                 <string key="toolTip">When this option is off, double click selects a word as defined by “characters considered part of word for selection” in the General tab. When this option is on, double click uses smart selection to select file names, URLs, etc., using regular expressions defined in Profiles&gt;Advanced&gt;Smart Selection.</string>
-                                                <buttonCell key="cell" type="check" title="Double-click performs smart selection" bezelStyle="regularSquare" imagePosition="left" alignment="left" state="on" inset="2" id="7XC-p9-8hX">
+                                                <buttonCell key="cell" type="check" title="双击智能选择" bezelStyle="regularSquare" imagePosition="left" alignment="left" state="on" inset="2" id="7XC-p9-8hX">
                                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
-                                                    <font key="font" metaFont="system"/>
+                                                    <font key="font" size="13" name=".PingFangSC-Regular"/>
                                                 </buttonCell>
                                                 <connections>
                                                     <action selector="settingChanged:" target="9Se-ld-UJa" id="3lZ-gw-9k9"/>
                                                 </connections>
                                             </button>
                                             <button toolTip="When this is enabled, shift+arrow key will extend an existing selection. If there is no selection, this has no effect." fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Nhj-1F-dbm">
-                                                <rect key="frame" x="143" y="48" width="420" height="18"/>
+                                                <rect key="frame" x="143" y="47" width="280" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                                <buttonCell key="cell" type="check" title="Automatically enter copy mode on Shift+Arrow key with selection" bezelStyle="regularSquare" imagePosition="left" alignment="left" state="on" inset="2" id="fXR-fI-xdt">
+                                                <buttonCell key="cell" type="check" title="使用 Shift+方向键选择时自动进入复制模式" bezelStyle="regularSquare" imagePosition="left" alignment="left" state="on" inset="2" id="fXR-fI-xdt">
                                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
-                                                    <font key="font" metaFont="system"/>
+                                                    <font key="font" size="13" name=".PingFangSC-Regular"/>
                                                 </buttonCell>
                                                 <connections>
                                                     <action selector="settingChanged:" target="9Se-ld-UJa" id="EiI-P1-hgA"/>
                                                 </connections>
                                             </button>
                                             <button toolTip="If disabled, then triple click selects one line as it appears onscreen." fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GD3-XJ-mYL">
-                                                <rect key="frame" x="143" y="88" width="420" height="18"/>
+                                                <rect key="frame" x="143" y="87" width="420" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                                <buttonCell key="cell" type="check" title="Triple-click selects entire wrapped lines" bezelStyle="regularSquare" imagePosition="left" alignment="left" state="on" inset="2" id="XH1-2y-ipC">
+                                                <buttonCell key="cell" type="check" title="三击选择整行" bezelStyle="regularSquare" imagePosition="left" alignment="left" state="on" inset="2" id="XH1-2y-ipC">
                                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
-                                                    <font key="font" metaFont="system"/>
+                                                    <font key="font" size="13" name=".PingFangSC-Regular"/>
                                                 </buttonCell>
                                                 <connections>
                                                     <action selector="settingChanged:" target="9Se-ld-UJa" id="fMw-UA-Ylc"/>
                                                 </connections>
                                             </button>
                                             <textField verticalHuggingPriority="750" fixedFrame="YES" allowsCharacterPickerTouchBarItem="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2096">
-                                                <rect key="frame" x="382" y="20" width="96" height="21"/>
+                                                <rect key="frame" x="316" y="24" width="96" height="21"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="left" drawsBackground="YES" id="2097">
                                                     <font key="font" metaFont="system"/>
@@ -5032,7 +5032,7 @@ DQ
                                 </subviews>
                             </view>
                         </tabViewItem>
-                        <tabViewItem label="Window" identifier="" id="cmW-ac-GOQ">
+                        <tabViewItem label="窗口" identifier="" id="cmW-ac-GOQ">
                             <view key="view" id="5UT-I8-OHp">
                                 <rect key="frame" x="10" y="33" width="755" height="461"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -5042,11 +5042,11 @@ DQ
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
                                         <subviews>
                                             <button toolTip="Smart window placement puts new windows where the most free space is available." fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4570">
-                                                <rect key="frame" x="18" y="101" width="279" height="18"/>
+                                                <rect key="frame" x="18" y="100" width="279" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                                <buttonCell key="cell" type="check" title="Smart window placement" bezelStyle="regularSquare" imagePosition="left" alignment="left" state="on" inset="2" id="4571">
+                                                <buttonCell key="cell" type="check" title="智能放置窗口" bezelStyle="regularSquare" imagePosition="left" alignment="left" state="on" inset="2" id="4571">
                                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
-                                                    <font key="font" metaFont="system"/>
+                                                    <font key="font" size="13" name=".PingFangSC-Regular"/>
                                                 </buttonCell>
                                                 <connections>
                                                     <action selector="settingChanged:" target="9Se-ld-UJa" id="txH-W2-KYg"/>
@@ -5065,11 +5065,11 @@ DQ
                                                 </connections>
                                             </button>
                                             <button identifier="adjustWindowForFontSizeChange" toolTip="If enabled, changes to font size will try to preserve session dimensions." fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6377">
-                                                <rect key="frame" x="18" y="81" width="279" height="18"/>
+                                                <rect key="frame" x="18" y="80" width="279" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                                <buttonCell key="cell" type="check" title="Adjust window when changing font size" bezelStyle="regularSquare" imagePosition="left" alignment="left" state="on" inset="2" id="6378">
+                                                <buttonCell key="cell" type="check" title="当改变字体大小时调整窗口" bezelStyle="regularSquare" imagePosition="left" alignment="left" state="on" inset="2" id="6378">
                                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
-                                                    <font key="font" metaFont="system"/>
+                                                    <font key="font" size="13" name=".PingFangSC-Regular"/>
                                                 </buttonCell>
                                                 <connections>
                                                     <action selector="settingChanged:" target="9Se-ld-UJa" id="DaP-8V-RHc"/>
@@ -5077,12 +5077,12 @@ DQ
                                                 </connections>
                                             </button>
                                             <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5319">
-                                                <rect key="frame" x="18" y="40" width="279" height="18"/>
+                                                <rect key="frame" x="18" y="39" width="279" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                 <string key="toolTip">Native full screen windows animate into their own desktop. Non-native full screen windows quickly expand to fill the window's screen.</string>
-                                                <buttonCell key="cell" type="check" title="Native full screen windows" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="5320">
+                                                <buttonCell key="cell" type="check" title="使用原生全屏窗口" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="5320">
                                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
-                                                    <font key="font" metaFont="system"/>
+                                                    <font key="font" size="13" name=".PingFangSC-Regular"/>
                                                 </buttonCell>
                                                 <connections>
                                                     <action selector="settingChanged:" target="9Se-ld-UJa" id="fot-6n-Z9m"/>
@@ -5090,12 +5090,12 @@ DQ
                                                 </connections>
                                             </button>
                                             <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tVY-OD-hsd">
-                                                <rect key="frame" x="18" y="20" width="279" height="18"/>
+                                                <rect key="frame" x="18" y="19" width="279" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                 <string key="toolTip">The OSC 0 and OSC 2 control sequences set the window title. This setting controls whether such a control sequence changes the window title associated with all sessions in the window, or only with the one in which it was received. The window title is derived from the window title associated with the currently active session in that window.</string>
-                                                <buttonCell key="cell" type="check" title="Separate window title per tab" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="NbC-dp-wjc">
+                                                <buttonCell key="cell" type="check" title="每个选项卡单独的窗口标题" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="NbC-dp-wjc">
                                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
-                                                    <font key="font" metaFont="system"/>
+                                                    <font key="font" size="13" name=".PingFangSC-Regular"/>
                                                 </buttonCell>
                                                 <connections>
                                                     <action selector="settingChanged:" target="9Se-ld-UJa" id="oEe-9y-aY1"/>
@@ -5107,7 +5107,7 @@ DQ
                                 </subviews>
                             </view>
                         </tabViewItem>
-                        <tabViewItem label="Preferences" identifier="" id="A3y-3j-WQF">
+                        <tabViewItem label="首选项" identifier="" id="A3y-3j-WQF">
                             <view key="view" id="NGW-1C-GwI">
                                 <rect key="frame" x="10" y="33" width="755" height="461"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -5134,11 +5134,11 @@ DQ
                                                 <imageCell key="cell" refusesFirstResponder="YES" alignment="left" animates="YES" imageScaling="proportionallyDown" image="WarningSign" id="5629"/>
                                             </imageView>
                                             <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5614">
-                                                <rect key="frame" x="141" y="77" width="428" height="18"/>
+                                                <rect key="frame" x="141" y="76" width="428" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                                <buttonCell key="cell" type="check" title="Load preferences from a custom folder or URL" bezelStyle="regularSquare" imagePosition="left" alignment="left" state="on" inset="2" id="5615">
+                                                <buttonCell key="cell" type="check" title="从指定的目录或 URL 加载首选项" bezelStyle="regularSquare" imagePosition="left" alignment="left" state="on" inset="2" id="5615">
                                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
-                                                    <font key="font" metaFont="system"/>
+                                                    <font key="font" size="13" name=".PingFangSC-Regular"/>
                                                 </buttonCell>
                                                 <connections>
                                                     <action selector="settingChanged:" target="9Se-ld-UJa" id="2m8-OE-cnA"/>
@@ -5147,7 +5147,7 @@ DQ
                                             <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5618">
                                                 <rect key="frame" x="479" y="42" width="96" height="32"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                                <buttonCell key="cell" type="push" title="Browse" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="5619">
+                                                <buttonCell key="cell" type="push" title="浏览" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="5619">
                                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                                     <font key="font" metaFont="system"/>
                                                 </buttonCell>
@@ -5155,24 +5155,15 @@ DQ
                                                     <action selector="browseCustomFolder:" target="9Se-ld-UJa" id="Qyg-mv-oRH"/>
                                                 </connections>
                                             </button>
-                                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YYR-pl-zPM">
-                                                <rect key="frame" x="70" y="20" width="88" height="16"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                                <textFieldCell key="cell" lineBreakMode="clipping" title="Save changes" id="6Dp-co-GtB">
-                                                    <font key="font" metaFont="system"/>
-                                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
-                                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
-                                                </textFieldCell>
-                                            </textField>
                                             <popUpButton verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WKm-Jb-RMO">
                                                 <rect key="frame" x="160" y="13" width="321" height="25"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                                <popUpButtonCell key="cell" type="push" title="Automatically" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" tag="2" imageScaling="proportionallyDown" inset="2" selectedItem="KXS-zY-yFi" id="nFZ-i3-Vo2">
+                                                <popUpButtonCell key="cell" type="push" title="自动" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" tag="2" imageScaling="proportionallyDown" inset="2" selectedItem="KXS-zY-yFi" id="nFZ-i3-Vo2">
                                                     <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
                                                     <font key="font" metaFont="menu"/>
                                                     <menu key="menu" id="o9q-f5-1Zh">
                                                         <items>
-                                                            <menuItem title="Automatically" state="on" tag="2" id="KXS-zY-yFi"/>
+                                                            <menuItem title="自动" state="on" tag="2" id="KXS-zY-yFi"/>
                                                             <menuItem title="Manually" tag="1" id="S7J-GG-W7d"/>
                                                             <menuItem title="When Quitting" id="khz-Qu-w2v"/>
                                                         </items>
@@ -5185,7 +5176,7 @@ DQ
                                             <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5620">
                                                 <rect key="frame" x="479" y="9" width="96" height="32"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                                <buttonCell key="cell" type="push" title="Save Now" bezelStyle="rounded" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="5621">
+                                                <buttonCell key="cell" type="push" title="立即保存" bezelStyle="rounded" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="5621">
                                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                                     <font key="font" metaFont="system"/>
                                                 </buttonCell>
@@ -5193,6 +5184,15 @@ DQ
                                                     <action selector="pushToCustomFolder:" target="9Se-ld-UJa" id="XU1-4a-fHX"/>
                                                 </connections>
                                             </button>
+                                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YYR-pl-zPM">
+                                                <rect key="frame" x="99" y="19" width="58" height="16"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                                <textFieldCell key="cell" lineBreakMode="clipping" title="保存更改" id="6Dp-co-GtB">
+                                                    <font key="font" size="13" name=".PingFangSC-Regular"/>
+                                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                                </textFieldCell>
+                                            </textField>
                                         </subviews>
                                     </customView>
                                 </subviews>
@@ -5207,15 +5207,6 @@ DQ
                                         <rect key="frame" x="79" y="241" width="612" height="227"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
                                         <subviews>
-                                            <textField verticalHuggingPriority="750" fixedFrame="YES" allowsCharacterPickerTouchBarItem="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rci-Sr-fks">
-                                                <rect key="frame" x="75" y="192" width="227" height="16"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="When attaching, restore windows as:" id="OHo-9E-q2w">
-                                                    <font key="font" metaFont="system"/>
-                                                    <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
-                                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
-                                                </textFieldCell>
-                                            </textField>
                                             <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gLU-0J-chc">
                                                 <rect key="frame" x="94" y="142" width="410" height="18"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
@@ -5338,6 +5329,15 @@ DQ
                                                     <action selector="settingChanged:" target="9Se-ld-UJa" id="nfD-wf-Xqf"/>
                                                 </connections>
                                             </button>
+                                            <textField verticalHuggingPriority="750" fixedFrame="YES" allowsCharacterPickerTouchBarItem="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rci-Sr-fks">
+                                                <rect key="frame" x="160" y="191" width="147" height="16"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" title="当附加时，还原窗口到：" id="OHo-9E-q2w">
+                                                    <font key="font" size="13" name=".PingFangSC-Regular"/>
+                                                    <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                                </textFieldCell>
+                                            </textField>
                                         </subviews>
                                     </customView>
                                 </subviews>
@@ -5361,7 +5361,7 @@ DQ
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                     <font key="font" metaFont="system"/>
                     <tabViewItems>
-                        <tabViewItem label="General" identifier="" id="wt3-Hu-DaR">
+                        <tabViewItem label="通用" identifier="" id="wt3-Hu-DaR">
                             <view key="view" id="7fG-Sy-1hE">
                                 <rect key="frame" x="10" y="33" width="590" height="214"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -5371,34 +5371,34 @@ DQ
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
                                         <subviews>
                                             <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="awA-hH-ziY">
-                                                <rect key="frame" x="144" y="58" width="306" height="18"/>
+                                                <rect key="frame" x="144" y="57" width="306" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
                                                 <string key="toolTip">For this setting to take effect you must disable "Native full screen windows" in Prefs&gt;General. If this setting is enabled, the menu bar will remain visible. This is useful for multi-monitor systems.</string>
-                                                <buttonCell key="cell" type="check" title="Auto-hide menu bar in non-native fullscreen" bezelStyle="regularSquare" imagePosition="left" alignment="left" state="on" inset="2" id="MM6-3I-2ep">
+                                                <buttonCell key="cell" type="check" title="在非原生全屏时自动隐藏菜单栏" bezelStyle="regularSquare" imagePosition="left" alignment="left" state="on" inset="2" id="MM6-3I-2ep">
                                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
-                                                    <font key="font" metaFont="system"/>
+                                                    <font key="font" size="13" name=".PingFangSC-Regular"/>
                                                 </buttonCell>
                                                 <connections>
                                                     <action selector="settingChanged:" target="wvi-ET-SJJ" id="WbD-TV-ddw"/>
                                                 </connections>
                                             </button>
                                             <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zde-kb-c7t">
-                                                <rect key="frame" x="144" y="38" width="337" height="18"/>
+                                                <rect key="frame" x="144" y="37" width="244" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
                                                 <string key="toolTip">This is useful if you only use iTerm2 with a hotkey window. The preference is disabled if no dedicated hotkey window is defined since it would be impossible to get to iTerm2 when it has no windows and no hotkey is defined.</string>
-                                                <buttonCell key="cell" type="check" title="Exclude from Dock and ⌘-Tab Application Switcher" bezelStyle="regularSquare" imagePosition="left" alignment="left" state="on" inset="2" id="90f-c6-lvp">
+                                                <buttonCell key="cell" type="check" title="在程序和使用⌘-Tab切换应用时隐藏" bezelStyle="regularSquare" imagePosition="left" alignment="left" state="on" inset="2" id="90f-c6-lvp">
                                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
-                                                    <font key="font" metaFont="system"/>
+                                                    <font key="font" size="13" name=".PingFangSC-Regular"/>
                                                 </buttonCell>
                                                 <connections>
                                                     <action selector="settingChanged:" target="wvi-ET-SJJ" id="Saj-Ug-CMy"/>
                                                 </connections>
                                             </button>
                                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" allowsCharacterPickerTouchBarItem="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ThU-HR-f8F">
-                                                <rect key="frame" x="90" y="140" width="50" height="16"/>
+                                                <rect key="frame" x="109" y="140" width="31" height="16"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
-                                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" title="Theme:" id="uhj-9S-l8R">
-                                                    <font key="font" metaFont="system"/>
+                                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" title="主题" id="uhj-9S-l8R">
+                                                    <font key="font" size="13" name=".PingFangSC-Regular"/>
                                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                                 </textFieldCell>
@@ -5406,15 +5406,15 @@ DQ
                                             <popUpButton verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Cjh-dQ-HBQ">
                                                 <rect key="frame" x="144" y="79" width="191" height="26"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
-                                                <popUpButtonCell key="cell" type="push" title="Top" bezelStyle="rounded" alignment="left" lineBreakMode="clipping" state="on" borderStyle="borderAndBezel" inset="2" arrowPosition="arrowAtCenter" preferredEdge="maxY" selectedItem="7BM-xw-fbE" id="9o6-qH-zo0" userLabel="Tab Style">
+                                                <popUpButtonCell key="cell" type="push" title="上" bezelStyle="rounded" alignment="left" lineBreakMode="clipping" state="on" borderStyle="borderAndBezel" inset="2" arrowPosition="arrowAtCenter" preferredEdge="maxY" selectedItem="7BM-xw-fbE" id="9o6-qH-zo0" userLabel="Tab Style">
                                                     <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
                                                     <font key="font" metaFont="menu"/>
                                                     <menu key="menu" title="OtherViews" id="TGp-XX-gkr">
                                                         <items>
-                                                            <menuItem title="Top" state="on" id="7BM-xw-fbE">
+                                                            <menuItem title="上" state="on" id="7BM-xw-fbE">
                                                                 <modifierMask key="keyEquivalentModifierMask"/>
                                                             </menuItem>
-                                                            <menuItem title="Bottom" tag="1" id="kqT-50-xBs"/>
+                                                            <menuItem title="下" tag="1" id="kqT-50-xBs"/>
                                                         </items>
                                                     </menu>
                                                 </popUpButtonCell>
@@ -5425,14 +5425,14 @@ DQ
                                             <popUpButton verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4463">
                                                 <rect key="frame" x="144" y="106" width="191" height="26"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
-                                                <popUpButtonCell key="cell" type="push" bezelStyle="rounded" alignment="left" lineBreakMode="clipping" borderStyle="borderAndBezel" inset="2" arrowPosition="arrowAtCenter" preferredEdge="maxY" id="4495">
+                                                <popUpButtonCell key="cell" type="push" title="上" bezelStyle="rounded" alignment="left" lineBreakMode="clipping" state="on" borderStyle="borderAndBezel" inset="2" arrowPosition="arrowAtCenter" preferredEdge="maxY" selectedItem="4497" id="4495">
                                                     <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
                                                     <font key="font" metaFont="menu"/>
                                                     <menu key="menu" title="OtherViews" id="4496">
                                                         <items>
-                                                            <menuItem title="Top" id="4497"/>
-                                                            <menuItem title="Bottom" tag="1" id="4498"/>
-                                                            <menuItem title="Left" tag="2" id="KWx-TT-5ME"/>
+                                                            <menuItem title="上" state="on" id="4497"/>
+                                                            <menuItem title="下" tag="1" id="4498"/>
+                                                            <menuItem title="左" tag="2" id="KWx-TT-5ME"/>
                                                         </items>
                                                     </menu>
                                                 </popUpButtonCell>
@@ -5444,20 +5444,20 @@ DQ
                                             <popUpButton verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uFJ-bZ-kag">
                                                 <rect key="frame" x="144" y="133" width="191" height="26"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
-                                                <popUpButtonCell key="cell" type="push" title="Regular" bezelStyle="rounded" alignment="left" lineBreakMode="clipping" state="on" borderStyle="borderAndBezel" tag="4" inset="2" arrowPosition="arrowAtCenter" preferredEdge="maxY" selectedItem="ZNW-QH-Lff" id="dAw-Fo-tf4" userLabel="Tab Style">
+                                                <popUpButtonCell key="cell" type="push" title="暗色(高对比度)" bezelStyle="rounded" alignment="left" lineBreakMode="clipping" state="on" borderStyle="borderAndBezel" tag="3" inset="2" arrowPosition="arrowAtCenter" preferredEdge="maxY" selectedItem="fm1-QT-Lct" id="dAw-Fo-tf4" userLabel="Tab Style">
                                                     <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
                                                     <font key="font" metaFont="menu"/>
                                                     <menu key="menu" title="OtherViews" id="dVY-ir-1iD">
                                                         <items>
-                                                            <menuItem title="Regular" state="on" tag="4" id="ZNW-QH-Lff"/>
-                                                            <menuItem title="Minimal" tag="5" id="pzb-ff-PHK"/>
-                                                            <menuItem title="Compact" tag="6" id="PuI-6v-vjf"/>
+                                                            <menuItem title="普通" tag="4" id="ZNW-QH-Lff"/>
+                                                            <menuItem title="最化小" tag="5" id="pzb-ff-PHK"/>
+                                                            <menuItem title="紧凑" tag="6" id="PuI-6v-vjf"/>
                                                             <menuItem isSeparatorItem="YES" tag="-1" id="Efu-Me-UrR"/>
-                                                            <menuItem title="Light" id="4kv-Gg-Pyp"/>
-                                                            <menuItem title="Dark" tag="1" id="jvn-mf-Qsy"/>
+                                                            <menuItem title="亮色" id="4kv-Gg-Pyp"/>
+                                                            <menuItem title="暗色" tag="1" id="jvn-mf-Qsy"/>
                                                             <menuItem isSeparatorItem="YES" tag="-1" id="Nge-uR-XLf"/>
-                                                            <menuItem title="Light (High Contrast)" tag="2" id="O45-Gi-i9j"/>
-                                                            <menuItem title="Dark (High Contrast)" tag="3" id="fm1-QT-Lct"/>
+                                                            <menuItem title="亮色(高对比度)" tag="2" id="O45-Gi-i9j"/>
+                                                            <menuItem title="暗色(高对比度)" state="on" tag="3" id="fm1-QT-Lct"/>
                                                         </items>
                                                     </menu>
                                                 </popUpButtonCell>
@@ -5467,19 +5467,19 @@ DQ
                                                 </connections>
                                             </popUpButton>
                                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ghv-jZ-ql9">
-                                                <rect key="frame" x="18" y="86" width="122" height="16"/>
+                                                <rect key="frame" x="69" y="86" width="71" height="16"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
-                                                <textFieldCell key="cell" lineBreakMode="clipping" alignment="right" title="Status bar location:" id="jtG-zd-rvL">
-                                                    <font key="font" metaFont="system"/>
+                                                <textFieldCell key="cell" lineBreakMode="clipping" alignment="right" title="状态栏位置" id="jtG-zd-rvL">
+                                                    <font key="font" size="13" name=".PingFangSC-Regular"/>
                                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                 </textFieldCell>
                                             </textField>
                                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" allowsCharacterPickerTouchBarItem="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sxm-tG-syy">
-                                                <rect key="frame" x="35" y="113" width="105" height="16"/>
+                                                <rect key="frame" x="69" y="113" width="71" height="16"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
-                                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" title="Tab bar location:" id="jnA-10-c4D">
-                                                    <font key="font" metaFont="system"/>
+                                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" title="标签栏位置" id="jnA-10-c4D">
+                                                    <font key="font" size="13" name=".PingFangSC-Regular"/>
                                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                                 </textFieldCell>
@@ -5488,9 +5488,9 @@ DQ
                                                 <rect key="frame" x="163" y="18" width="334" height="18"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
                                                 <string key="toolTip">This is useful if you only use iTerm2 with a hotkey window. The preference is disabled if no dedicated hotkey window is defined since it would be impossible to get to iTerm2 when it has no windows and no hotkey is defined.</string>
-                                                <buttonCell key="cell" type="check" title="…but only if all windows are hotkey windows" bezelStyle="regularSquare" imagePosition="left" alignment="left" state="on" inset="2" id="9Nh-nh-0mQ">
+                                                <buttonCell key="cell" type="check" title="除非所有窗口都是热键窗口" bezelStyle="regularSquare" imagePosition="left" alignment="left" state="on" inset="2" id="9Nh-nh-0mQ">
                                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
-                                                    <font key="font" metaFont="system"/>
+                                                    <font key="font" size="13" name=".PingFangSC-Regular"/>
                                                 </buttonCell>
                                                 <connections>
                                                     <action selector="settingChanged:" target="wvi-ET-SJJ" id="3mP-qK-BRO"/>
@@ -5501,7 +5501,7 @@ DQ
                                 </subviews>
                             </view>
                         </tabViewItem>
-                        <tabViewItem label="Windows" identifier="1" id="9EZ-jv-4Qy">
+                        <tabViewItem label="窗口" identifier="1" id="9EZ-jv-4Qy">
                             <view key="view" id="Ei6-Ql-t7N">
                                 <rect key="frame" x="10" y="33" width="590" height="214"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -5514,9 +5514,9 @@ DQ
                                                 <rect key="frame" x="18" y="98" width="373" height="18"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
                                                 <string key="toolTip">Draws a border around the window when the OS otherwise would not. This is effective in light mode or when the window contains a transparent pane.</string>
-                                                <buttonCell key="cell" type="check" title="Show border around windows" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="5145">
+                                                <buttonCell key="cell" type="check" title="显示窗口边框" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="5145">
                                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
-                                                    <font key="font" metaFont="system"/>
+                                                    <font key="font" size="13" name=".PingFangSC-Regular"/>
                                                 </buttonCell>
                                                 <connections>
                                                     <action selector="settingChanged:" target="wvi-ET-SJJ" id="zbB-NI-Hrw"/>
@@ -5525,9 +5525,9 @@ DQ
                                             <button toolTip="If this is on then transparency can be toggled window-by-window under View&gt;Use Transparency" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5753">
                                                 <rect key="frame" x="18" y="58" width="373" height="18"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
-                                                <buttonCell key="cell" type="check" title="Disable transparency for fullscreen windows by default" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="5754">
+                                                <buttonCell key="cell" type="check" title="默认情况下禁用全屏窗口的透明度" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="5754">
                                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
-                                                    <font key="font" metaFont="system"/>
+                                                    <font key="font" size="13" name=".PingFangSC-Regular"/>
                                                 </buttonCell>
                                                 <connections>
                                                     <action selector="settingChanged:" target="wvi-ET-SJJ" id="yIz-F6-Yv5"/>
@@ -5537,9 +5537,9 @@ DQ
                                             <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4529">
                                                 <rect key="frame" x="18" y="118" width="373" height="18"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
-                                                <buttonCell key="cell" type="check" title="Show window number in title bar" bezelStyle="regularSquare" imagePosition="left" alignment="left" state="on" inset="2" id="4536">
+                                                <buttonCell key="cell" type="check" title="在标题栏显示窗口编号" bezelStyle="regularSquare" imagePosition="left" alignment="left" state="on" inset="2" id="4536">
                                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
-                                                    <font key="font" metaFont="system"/>
+                                                    <font key="font" size="13" name=".PingFangSC-Regular"/>
                                                 </buttonCell>
                                                 <connections>
                                                     <action selector="settingChanged:" target="wvi-ET-SJJ" id="aEE-AS-bub"/>
@@ -5548,9 +5548,9 @@ DQ
                                             <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4561">
                                                 <rect key="frame" x="18" y="78" width="373" height="18"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
-                                                <buttonCell key="cell" type="check" title="Hide scrollbars" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="4564">
+                                                <buttonCell key="cell" type="check" title="隐藏滚动条" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="4564">
                                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
-                                                    <font key="font" metaFont="system"/>
+                                                    <font key="font" size="13" name=".PingFangSC-Regular"/>
                                                 </buttonCell>
                                                 <connections>
                                                     <action selector="settingChanged:" target="wvi-ET-SJJ" id="ctR-fN-tGa"/>
@@ -5572,9 +5572,9 @@ DQ
                                             <button toolTip="Enables an icon in the window title bar that represents the current working directory." fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6Pr-69-fM1">
                                                 <rect key="frame" x="18" y="18" width="373" height="18"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
-                                                <buttonCell key="cell" type="check" title="Show proxy icon in window title bar" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="GIz-HY-hrx">
+                                                <buttonCell key="cell" type="check" title="在窗口标题栏中显示代理图标" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="GIz-HY-hrx">
                                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
-                                                    <font key="font" metaFont="system"/>
+                                                    <font key="font" size="13" name=".PingFangSC-Regular"/>
                                                 </buttonCell>
                                                 <connections>
                                                     <action selector="settingChanged:" target="wvi-ET-SJJ" id="yLA-0t-xoj"/>
@@ -5586,7 +5586,7 @@ DQ
                                 </subviews>
                             </view>
                         </tabViewItem>
-                        <tabViewItem label="Tabs" identifier="2" id="med-Jd-f8A">
+                        <tabViewItem label="标签" identifier="2" id="med-Jd-f8A">
                             <view key="view" id="z6P-Vz-VbA">
                                 <rect key="frame" x="10" y="33" width="590" height="214"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -5610,9 +5610,9 @@ DQ
                                             <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4446">
                                                 <rect key="frame" x="18" y="158" width="348" height="18"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                                <buttonCell key="cell" type="check" title="Show tab numbers" bezelStyle="regularSquare" imagePosition="left" alignment="left" state="on" inset="2" id="4447">
+                                                <buttonCell key="cell" type="check" title="显示标签编号" bezelStyle="regularSquare" imagePosition="left" alignment="left" state="on" inset="2" id="4447">
                                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
-                                                    <font key="font" metaFont="system"/>
+                                                    <font key="font" size="13" name=".PingFangSC-Regular"/>
                                                 </buttonCell>
                                                 <connections>
                                                     <action selector="settingChanged:" target="wvi-ET-SJJ" id="oJn-DF-JNG"/>
@@ -5622,9 +5622,9 @@ DQ
                                             <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5374">
                                                 <rect key="frame" x="18" y="118" width="343" height="18"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                                <buttonCell key="cell" type="check" title="Show activity indicator" bezelStyle="regularSquare" imagePosition="left" alignment="left" state="on" inset="2" id="5375">
+                                                <buttonCell key="cell" type="check" title="显示活动批示器" bezelStyle="regularSquare" imagePosition="left" alignment="left" state="on" inset="2" id="5375">
                                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
-                                                    <font key="font" metaFont="system"/>
+                                                    <font key="font" size="13" name=".PingFangSC-Regular"/>
                                                 </buttonCell>
                                                 <connections>
                                                     <action selector="settingChanged:" target="wvi-ET-SJJ" id="GiW-l7-del"/>
@@ -5634,9 +5634,9 @@ DQ
                                             <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4462">
                                                 <rect key="frame" x="18" y="198" width="348" height="18"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                                <buttonCell key="cell" type="check" title="Show tab bar even when there is only one tab" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="4499">
+                                                <buttonCell key="cell" type="check" title="只有一个标签时也显示标签栏" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="4499">
                                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
-                                                    <font key="font" metaFont="system"/>
+                                                    <font key="font" size="13" name=".PingFangSC-Regular"/>
                                                 </buttonCell>
                                                 <connections>
                                                     <action selector="settingChanged:" target="wvi-ET-SJJ" id="Let-n9-0Kb"/>
@@ -5645,9 +5645,9 @@ DQ
                                             <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vJk-74-qzt">
                                                 <rect key="frame" x="18" y="178" width="348" height="18"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                                <buttonCell key="cell" type="check" title="Preserve window size when tab bar shows or hides" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="9ky-UU-jS2">
+                                                <buttonCell key="cell" type="check" title="在标签栏显示或隐藏时保持窗口大小" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="9ky-UU-jS2">
                                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
-                                                    <font key="font" metaFont="system"/>
+                                                    <font key="font" size="13" name=".PingFangSC-Regular"/>
                                                 </buttonCell>
                                                 <connections>
                                                     <action selector="settingChanged:" target="wvi-ET-SJJ" id="ogD-RM-oj7"/>
@@ -5656,9 +5656,9 @@ DQ
                                             <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1dE-aB-uR8">
                                                 <rect key="frame" x="18" y="138" width="348" height="18"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                                <buttonCell key="cell" type="check" title="Tabs have close buttons" bezelStyle="regularSquare" imagePosition="left" alignment="left" state="on" inset="2" id="GRU-c6-tJK">
+                                                <buttonCell key="cell" type="check" title="标签显示关闭按钮" bezelStyle="regularSquare" imagePosition="left" alignment="left" state="on" inset="2" id="GRU-c6-tJK">
                                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
-                                                    <font key="font" metaFont="system"/>
+                                                    <font key="font" size="13" name=".PingFangSC-Regular"/>
                                                 </buttonCell>
                                                 <connections>
                                                     <action selector="settingChanged:" target="wvi-ET-SJJ" id="vDu-dP-gTT"/>
@@ -5680,9 +5680,9 @@ DQ
                                             <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="e4x-7h-mzh">
                                                 <rect key="frame" x="18" y="58" width="348" height="18"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                                <buttonCell key="cell" type="check" title="Show tab bar in fullscreen" bezelStyle="regularSquare" imagePosition="left" alignment="left" state="on" inset="2" id="UI6-As-YT2">
+                                                <buttonCell key="cell" type="check" title="全屏时显示标签栏" bezelStyle="regularSquare" imagePosition="left" alignment="left" state="on" inset="2" id="UI6-As-YT2">
                                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
-                                                    <font key="font" metaFont="system"/>
+                                                    <font key="font" size="13" name=".PingFangSC-Regular"/>
                                                 </buttonCell>
                                                 <connections>
                                                     <action selector="settingChanged:" target="wvi-ET-SJJ" id="b3q-r3-EVo"/>
@@ -5704,9 +5704,9 @@ DQ
                                             <button toolTip="The following tags are recognized: &lt;u&gt;, &lt;i&gt;, and &lt;b&gt;. You can also use &amp;lt; and &amp;amp;." fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ids-PU-lco" userLabel="Stretch Tabs to Fill Bar">
                                                 <rect key="frame" x="18" y="18" width="348" height="18"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                                <buttonCell key="cell" type="check" title="Support basic HTML tags in tab titles" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="RnY-AK-UW0">
+                                                <buttonCell key="cell" type="check" title="在标签标题中支持基础HTML标签" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="RnY-AK-UW0">
                                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
-                                                    <font key="font" metaFont="system"/>
+                                                    <font key="font" size="13" name=".PingFangSC-Regular"/>
                                                 </buttonCell>
                                                 <connections>
                                                     <action selector="settingChanged:" target="wvi-ET-SJJ" id="ohC-he-kp8"/>
@@ -5718,7 +5718,7 @@ DQ
                                 </subviews>
                             </view>
                         </tabViewItem>
-                        <tabViewItem label="Panes" identifier="2" id="zjb-6I-dDc">
+                        <tabViewItem label="面板" identifier="2" id="zjb-6I-dDc">
                             <view key="view" id="kid-3c-MWv">
                                 <rect key="frame" x="10" y="33" width="590" height="214"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -5730,9 +5730,9 @@ DQ
                                             <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rf8-fE-qJb">
                                                 <rect key="frame" x="54" y="99" width="267" height="18"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
-                                                <buttonCell key="cell" type="check" title="Separate status bars per pane" bezelStyle="regularSquare" imagePosition="left" alignment="left" state="on" inset="2" id="pMF-0o-f7A">
+                                                <buttonCell key="cell" type="check" title="每个面板独立显示状态栏" bezelStyle="regularSquare" imagePosition="left" alignment="left" state="on" inset="2" id="pMF-0o-f7A">
                                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
-                                                    <font key="font" metaFont="system"/>
+                                                    <font key="font" size="13" name=".PingFangSC-Regular"/>
                                                 </buttonCell>
                                                 <connections>
                                                     <action selector="settingChanged:" target="wvi-ET-SJJ" id="BDT-58-CSU"/>
@@ -5752,9 +5752,9 @@ DQ
                                             <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FvM-qm-P8l">
                                                 <rect key="frame" x="54" y="79" width="267" height="18"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
-                                                <buttonCell key="cell" type="check" title="Separate background images per pane" bezelStyle="regularSquare" imagePosition="left" alignment="left" state="on" inset="2" id="TMi-gO-FVp">
+                                                <buttonCell key="cell" type="check" title="每个面板独立设置背景图像" bezelStyle="regularSquare" imagePosition="left" alignment="left" state="on" inset="2" id="TMi-gO-FVp">
                                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
-                                                    <font key="font" metaFont="system"/>
+                                                    <font key="font" size="13" name=".PingFangSC-Regular"/>
                                                 </buttonCell>
                                                 <connections>
                                                     <action selector="settingChanged:" target="wvi-ET-SJJ" id="ygc-0q-Vxd"/>
@@ -5763,17 +5763,8 @@ DQ
                                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="d3Q-GV-fUG">
                                                 <rect key="frame" x="54" y="55" width="142" height="16"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                                <textFieldCell key="cell" lineBreakMode="clipping" alignment="right" title="Side margins:" id="mgo-bS-seC">
-                                                    <font key="font" metaFont="system"/>
-                                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
-                                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
-                                                </textFieldCell>
-                                            </textField>
-                                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Co8-1H-3eo">
-                                                <rect key="frame" x="54" y="24" width="142" height="16"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                                <textFieldCell key="cell" lineBreakMode="clipping" title="Top &amp; bottom margins:" id="moN-8d-dZd">
-                                                    <font key="font" metaFont="system"/>
+                                                <textFieldCell key="cell" lineBreakMode="clipping" alignment="right" title="两侧边距:" id="mgo-bS-seC">
+                                                    <font key="font" size="13" name=".PingFangSC-Regular"/>
                                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                 </textFieldCell>
@@ -5820,6 +5811,15 @@ DQ
                                                     <action selector="settingChanged:" target="wvi-ET-SJJ" id="d17-SK-PVg"/>
                                                 </connections>
                                             </stepper>
+                                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Co8-1H-3eo">
+                                                <rect key="frame" x="135" y="23" width="61" height="16"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                                <textFieldCell key="cell" lineBreakMode="clipping" title="上下边距:" id="moN-8d-dZd">
+                                                    <font key="font" size="13" name=".PingFangSC-Regular"/>
+                                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                                </textFieldCell>
+                                            </textField>
                                         </subviews>
                                     </customView>
                                 </subviews>
@@ -7048,7 +7048,7 @@ DQ
         <window title="Filter Alerts" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" restorable="NO" hidesOnDeactivate="YES" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" id="u39-OD-7hu" customClass="NSPanel">
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="120" y="138" width="406" height="145"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="1440" height="875"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1792" height="1095"/>
             <view key="contentView" id="dXn-d7-O8o">
                 <rect key="frame" x="0.0" y="0.0" width="406" height="145"/>
                 <autoresizingMask key="autoresizingMask"/>
