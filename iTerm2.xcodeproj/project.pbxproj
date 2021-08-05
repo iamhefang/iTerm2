@@ -1156,6 +1156,9 @@
 		1DFA9D6418F37160008ADC98 /* iTermEditKeyActionWindowController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DFA9D6118F37160008ADC98 /* iTermEditKeyActionWindowController.h */; };
 		1DFA9D7018F3A30F008ADC98 /* PointerPreferencesViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DFA9D6E18F3A30F008ADC98 /* PointerPreferencesViewController.h */; };
 		49A6E4091211CC6000D9AD6F /* Compatability.h in Headers */ = {isa = PBXBuildFile; fileRef = 49A6E4081211CC6000D9AD6F /* Compatability.h */; };
+		4F40937826BB80E9007984F2 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F40937C26BB80E9007984F2 /* MainMenu.xib */; };
+		4F40937926BB80E9007984F2 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F40937C26BB80E9007984F2 /* MainMenu.xib */; };
+		4F40937A26BB80E9007984F2 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F40937C26BB80E9007984F2 /* MainMenu.xib */; };
 		5300984C2259365B00A69348 /* iTermHapticActuator.h in Headers */ = {isa = PBXBuildFile; fileRef = 5300984A2259365B00A69348 /* iTermHapticActuator.h */; };
 		5300984D2259365B00A69348 /* iTermHapticActuator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5300984B2259365B00A69348 /* iTermHapticActuator.m */; };
 		530098502259A44D00A69348 /* iTermSoundPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 5300984E2259A44D00A69348 /* iTermSoundPlayer.h */; };
@@ -2546,9 +2549,6 @@
 		A67D0D6E1A2EE12A003A8B35 /* MainMenu.strings in Resources */ = {isa = PBXBuildFile; fileRef = A67D0D251A2EE12A003A8B35 /* MainMenu.strings */; };
 		A67D0D6F1A2EE12A003A8B35 /* MainMenu.strings in Resources */ = {isa = PBXBuildFile; fileRef = A67D0D251A2EE12A003A8B35 /* MainMenu.strings */; };
 		A67D0D701A2EE12A003A8B35 /* MainMenu.strings in Resources */ = {isa = PBXBuildFile; fileRef = A67D0D251A2EE12A003A8B35 /* MainMenu.strings */; };
-		A67D0D711A2EE12A003A8B35 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A67D0D261A2EE12A003A8B35 /* MainMenu.xib */; };
-		A67D0D721A2EE12A003A8B35 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A67D0D261A2EE12A003A8B35 /* MainMenu.xib */; };
-		A67D0D731A2EE12A003A8B35 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A67D0D261A2EE12A003A8B35 /* MainMenu.xib */; };
 		A67D0D741A2EE12A003A8B35 /* NumberOfSpacesAccessoryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A67D0D271A2EE12A003A8B35 /* NumberOfSpacesAccessoryView.xib */; };
 		A67D0D751A2EE12A003A8B35 /* NumberOfSpacesAccessoryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A67D0D271A2EE12A003A8B35 /* NumberOfSpacesAccessoryView.xib */; };
 		A67D0D761A2EE12A003A8B35 /* NumberOfSpacesAccessoryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A67D0D271A2EE12A003A8B35 /* NumberOfSpacesAccessoryView.xib */; };
@@ -4734,6 +4734,7 @@
 		20E74F4804E9089700000106 /* ITAddressBookMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 4; lastKnownFileType = sourcecode.c.h; path = ITAddressBookMgr.h; sourceTree = "<group>"; tabWidth = 4; };
 		20E74F4904E9089700000106 /* ITAddressBookMgr.m */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 4; lastKnownFileType = sourcecode.c.objc; path = ITAddressBookMgr.m; sourceTree = "<group>"; tabWidth = 4; };
 		49A6E4081211CC6000D9AD6F /* Compatability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Compatability.h; sourceTree = "<group>"; };
+		4F40937B26BB80E9007984F2 /* zh_CN */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = zh_CN; path = zh_CN.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		5300984A2259365B00A69348 /* iTermHapticActuator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iTermHapticActuator.h; sourceTree = "<group>"; };
 		5300984B2259365B00A69348 /* iTermHapticActuator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iTermHapticActuator.m; sourceTree = "<group>"; };
 		5300984E2259A44D00A69348 /* iTermSoundPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iTermSoundPlayer.h; sourceTree = "<group>"; };
@@ -5912,7 +5913,6 @@
 		A67D0D231A2EE12A003A8B35 /* iTermPasteSpecialViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = iTermPasteSpecialViewController.xib; path = Interfaces/iTermPasteSpecialViewController.xib; sourceTree = "<group>"; };
 		A67D0D241A2EE12A003A8B35 /* iTermPasteSpecialWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = iTermPasteSpecialWindow.xib; path = Interfaces/iTermPasteSpecialWindow.xib; sourceTree = "<group>"; };
 		A67D0D251A2EE12A003A8B35 /* MainMenu.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = MainMenu.strings; path = Interfaces/MainMenu.strings; sourceTree = "<group>"; };
-		A67D0D261A2EE12A003A8B35 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainMenu.xib; path = Interfaces/MainMenu.xib; sourceTree = "<group>"; };
 		A67D0D271A2EE12A003A8B35 /* NumberOfSpacesAccessoryView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NumberOfSpacesAccessoryView.xib; path = Interfaces/NumberOfSpacesAccessoryView.xib; sourceTree = "<group>"; };
 		A67D0D281A2EE12A003A8B35 /* PasteboardHistory.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PasteboardHistory.xib; path = Interfaces/PasteboardHistory.xib; sourceTree = "<group>"; };
 		A67D0D291A2EE12A003A8B35 /* PasteView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PasteView.xib; path = Interfaces/PasteView.xib; sourceTree = "<group>"; };
@@ -7491,7 +7491,7 @@
 				1DA76A051B30892900CB272A /* iTermTipWindowController.xib */,
 				A66A1FAD1A3A230A00F4A3A7 /* iTermWindowShortcutAccessoryView.xib */,
 				A67D0D251A2EE12A003A8B35 /* MainMenu.strings */,
-				A67D0D261A2EE12A003A8B35 /* MainMenu.xib */,
+				4F40937C26BB80E9007984F2 /* MainMenu.xib */,
 				A67D0D271A2EE12A003A8B35 /* NumberOfSpacesAccessoryView.xib */,
 				A67D0D281A2EE12A003A8B35 /* PasteboardHistory.xib */,
 				A67D0D291A2EE12A003A8B35 /* PasteView.xib */,
@@ -12281,7 +12281,7 @@
 				A629F58323AF2DE900C2F16B /* iterm2_shell_integration.zsh in Resources */,
 				1DB40A431B1FDC80005B83C7 /* NoColor@2x.png in Resources */,
 				A663010A19CFCE74004AF81C /* SuppressAllOutput.png in Resources */,
-				A67D0D731A2EE12A003A8B35 /* MainMenu.xib in Resources */,
+				4F40937A26BB80E9007984F2 /* MainMenu.xib in Resources */,
 				A636C3BA22891BD900A83E2F /* StatusBarIconNoBattery@2x.png in Resources */,
 				A67F6136214395570093940A /* graphic_gulp.png in Resources */,
 				1D6ED97919AEA20D005A7799 /* important.png in Resources */,
@@ -13041,7 +13041,7 @@
 				1D44D0921CC7F5A600BE5630 /* PTYTextViewTest-golden-travis-testSmartCursorColor_allWhite.png in Resources */,
 				1D44CF8A1CC7F5A600BE5630 /* PTYTextViewTest-golden-nonretina-testAnsiColors.png in Resources */,
 				A67D0D391A2EE12A003A8B35 /* AdvancedWorkingDirectoryWindow.xib in Resources */,
-				A67D0D721A2EE12A003A8B35 /* MainMenu.xib in Resources */,
+				4F40937926BB80E9007984F2 /* MainMenu.xib in Resources */,
 				A67F6151214395870093940A /* graphic_less.png in Resources */,
 				1D8BBA861B31DC140005A852 /* ChevronDown@2x.png in Resources */,
 				1D44D07A1CC7F5A600BE5630 /* PTYTextViewTest-golden-travis-testHiddenCursor.png in Resources */,
@@ -13275,7 +13275,7 @@
 				A6E7AE70214394CA00DE9F3B /* graphic_atom.png in Resources */,
 				A66F52C72106F6F100571168 /* gitdirty.png in Resources */,
 				A67F61BB214395C60093940A /* graphic_shell@2x.png in Resources */,
-				A67D0D711A2EE12A003A8B35 /* MainMenu.xib in Resources */,
+				4F40937826BB80E9007984F2 /* MainMenu.xib in Resources */,
 				A6E7AE64214394CA00DE9F3B /* graphic_clojure@2x.png in Resources */,
 				A63011B320E7EE69008114B7 /* iTermStatusBarKnobNumericViewController.xib in Resources */,
 				A6374A231DEA08C5000A136F /* PTYTextViewTest-golden-nonretina-testUnderline.png in Resources */,
@@ -15203,6 +15203,15 @@
 				1DD39AE6180B8118004E56D5 /* en */,
 			);
 			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		4F40937C26BB80E9007984F2 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F40937B26BB80E9007984F2 /* zh_CN */,
+			);
+			name = MainMenu.xib;
+			path = Interfaces;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
